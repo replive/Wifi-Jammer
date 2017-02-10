@@ -19,12 +19,6 @@ const static char *password = "killwifi";
 
 ESP8266WebServer server(80);
 
-/*
-I had some troubles implementing singleton classes.
-see: https://github.com/esp8266/Arduino/issues/500
-They fixed this issue with in the newer SDK version (the one we can't use),
-so I used global variables.
-*/
 
 NameList nameList;
 
